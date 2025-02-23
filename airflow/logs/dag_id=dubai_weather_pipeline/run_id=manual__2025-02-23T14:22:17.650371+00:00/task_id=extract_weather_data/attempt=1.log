@@ -1,0 +1,21 @@
+[2025-02-23T14:22:19.340+0000] {local_task_job_runner.py:123} INFO - ::group::Pre task execution logs
+[2025-02-23T14:22:19.365+0000] {taskinstance.py:2614} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: dubai_weather_pipeline.extract_weather_data manual__2025-02-23T14:22:17.650371+00:00 [queued]>
+[2025-02-23T14:22:19.373+0000] {taskinstance.py:2614} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: dubai_weather_pipeline.extract_weather_data manual__2025-02-23T14:22:17.650371+00:00 [queued]>
+[2025-02-23T14:22:19.374+0000] {taskinstance.py:2867} INFO - Starting attempt 1 of 1
+[2025-02-23T14:22:19.392+0000] {taskinstance.py:2890} INFO - Executing <Task(_PythonDecoratedOperator): extract_weather_data> on 2025-02-23 14:22:17.650371+00:00
+[2025-02-23T14:22:19.398+0000] {warnings.py:112} WARNING - /home/***/.local/lib/python3.12/site-packages/***/task/task_runner/standard_task_runner.py:70: DeprecationWarning: This process (pid=19767) is multi-threaded, use of fork() may lead to deadlocks in the child.
+  pid = os.fork()
+
+[2025-02-23T14:22:19.399+0000] {standard_task_runner.py:72} INFO - Started process 19768 to run task
+[2025-02-23T14:22:19.400+0000] {standard_task_runner.py:104} INFO - Running: ['***', 'tasks', 'run', 'dubai_weather_pipeline', 'extract_weather_data', 'manual__2025-02-23T14:22:17.650371+00:00', '--job-id', '129', '--raw', '--subdir', 'DAGS_FOLDER/dubai_weather_pipeline/dubai_weather_etl.py', '--cfg-path', '/tmp/tmptoqcjl4f']
+[2025-02-23T14:22:19.401+0000] {standard_task_runner.py:105} INFO - Job 129: Subtask extract_weather_data
+[2025-02-23T14:22:19.467+0000] {task_command.py:467} INFO - Running <TaskInstance: dubai_weather_pipeline.extract_weather_data manual__2025-02-23T14:22:17.650371+00:00 [running]> on host ee2081ae3a04
+[2025-02-23T14:22:19.588+0000] {taskinstance.py:3134} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='***' AIRFLOW_CTX_DAG_ID='dubai_weather_pipeline' AIRFLOW_CTX_TASK_ID='extract_weather_data' AIRFLOW_CTX_EXECUTION_DATE='2025-02-23T14:22:17.650371+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2025-02-23T14:22:17.650371+00:00'
+[2025-02-23T14:22:19.589+0000] {taskinstance.py:732} INFO - ::endgroup::
+[2025-02-23T14:22:19.607+0000] {base.py:84} INFO - Retrieving connection 'open_meteo_id'
+[2025-02-23T14:22:20.180+0000] {python.py:240} INFO - Done. Returned value was: {'latitude': 25.125, 'longitude': 55.125, 'generationtime_ms': 0.025153160095214844, 'utc_offset_seconds': 0, 'timezone': 'GMT', 'timezone_abbreviation': 'GMT', 'elevation': 6.0, 'current_weather_units': {'time': 'iso8601', 'interval': 'seconds', 'temperature': '°C', 'windspeed': 'km/h', 'winddirection': '°', 'is_day': '', 'weathercode': 'wmo code'}, 'current_weather': {'time': '2025-02-23T14:15', 'interval': 900, 'temperature': 25.6, 'windspeed': 15.7, 'winddirection': 16, 'is_day': 1, 'weathercode': 3}}
+[2025-02-23T14:22:20.229+0000] {taskinstance.py:341} INFO - ::group::Post task execution logs
+[2025-02-23T14:22:20.229+0000] {taskinstance.py:353} INFO - Marking task as SUCCESS. dag_id=dubai_weather_pipeline, task_id=extract_weather_data, run_id=manual__2025-02-23T14:22:17.650371+00:00, execution_date=20250223T142217, start_date=20250223T142219, end_date=20250223T142220
+[2025-02-23T14:22:20.295+0000] {local_task_job_runner.py:266} INFO - Task exited with return code 0
+[2025-02-23T14:22:20.342+0000] {taskinstance.py:3901} INFO - 1 downstream tasks scheduled from follow-on schedule check
+[2025-02-23T14:22:20.345+0000] {local_task_job_runner.py:245} INFO - ::endgroup::
