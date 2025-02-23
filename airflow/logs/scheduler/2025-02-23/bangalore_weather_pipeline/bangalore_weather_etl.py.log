@@ -2480,3 +2480,108 @@ SyntaxError: '(' was never closed
 [2025-02-23T17:23:55.997+0000] {logging_mixin.py:190} INFO - [2025-02-23T17:23:55.996+0000] {dag.py:3239} INFO - Sync 1 DAGs
 [2025-02-23T17:23:56.157+0000] {logging_mixin.py:190} INFO - [2025-02-23T17:23:56.157+0000] {dag.py:4180} INFO - Setting next_dagrun for bangalore_weather_pipeline to 2025-02-23 17:00:00+00:00, run_after=2025-02-23 18:00:00+00:00
 [2025-02-23T17:23:56.178+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/bangalore_weather_pipeline/bangalore_weather_etl.py took 0.243 seconds
+[2025-02-23T17:24:26.546+0000] {processor.py:186} INFO - Started process (PID=30770) to work on /opt/airflow/dags/bangalore_weather_pipeline/bangalore_weather_etl.py
+[2025-02-23T17:24:26.547+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/bangalore_weather_pipeline/bangalore_weather_etl.py for tasks to queue
+[2025-02-23T17:24:26.549+0000] {logging_mixin.py:190} INFO - [2025-02-23T17:24:26.548+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/bangalore_weather_pipeline/bangalore_weather_etl.py
+[2025-02-23T17:24:26.564+0000] {processor.py:925} INFO - DAG(s) 'bangalore_weather_pipeline' retrieved from /opt/airflow/dags/bangalore_weather_pipeline/bangalore_weather_etl.py
+[2025-02-23T17:24:26.599+0000] {logging_mixin.py:190} INFO - [2025-02-23T17:24:26.599+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-23T17:24:26.634+0000] {logging_mixin.py:190} INFO - [2025-02-23T17:24:26.634+0000] {dag.py:4180} INFO - Setting next_dagrun for bangalore_weather_pipeline to 2025-02-23 17:00:00+00:00, run_after=2025-02-23 18:00:00+00:00
+[2025-02-23T17:24:26.659+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/bangalore_weather_pipeline/bangalore_weather_etl.py took 0.123 seconds
+[2025-02-23T17:24:57.050+0000] {processor.py:186} INFO - Started process (PID=30781) to work on /opt/airflow/dags/bangalore_weather_pipeline/bangalore_weather_etl.py
+[2025-02-23T17:24:57.051+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/bangalore_weather_pipeline/bangalore_weather_etl.py for tasks to queue
+[2025-02-23T17:24:57.053+0000] {logging_mixin.py:190} INFO - [2025-02-23T17:24:57.052+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/bangalore_weather_pipeline/bangalore_weather_etl.py
+[2025-02-23T17:24:57.067+0000] {processor.py:925} INFO - DAG(s) 'bangalore_weather_pipeline' retrieved from /opt/airflow/dags/bangalore_weather_pipeline/bangalore_weather_etl.py
+[2025-02-23T17:24:57.100+0000] {logging_mixin.py:190} INFO - [2025-02-23T17:24:57.100+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-23T17:24:57.133+0000] {logging_mixin.py:190} INFO - [2025-02-23T17:24:57.133+0000] {dag.py:4180} INFO - Setting next_dagrun for bangalore_weather_pipeline to 2025-02-23 17:00:00+00:00, run_after=2025-02-23 18:00:00+00:00
+[2025-02-23T17:24:57.155+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/bangalore_weather_pipeline/bangalore_weather_etl.py took 0.114 seconds
+[2025-02-23T17:25:27.594+0000] {processor.py:186} INFO - Started process (PID=30792) to work on /opt/airflow/dags/bangalore_weather_pipeline/bangalore_weather_etl.py
+[2025-02-23T17:25:27.595+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/bangalore_weather_pipeline/bangalore_weather_etl.py for tasks to queue
+[2025-02-23T17:25:27.596+0000] {logging_mixin.py:190} INFO - [2025-02-23T17:25:27.596+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/bangalore_weather_pipeline/bangalore_weather_etl.py
+[2025-02-23T17:25:27.609+0000] {processor.py:925} INFO - DAG(s) 'bangalore_weather_pipeline' retrieved from /opt/airflow/dags/bangalore_weather_pipeline/bangalore_weather_etl.py
+[2025-02-23T17:25:27.641+0000] {logging_mixin.py:190} INFO - [2025-02-23T17:25:27.641+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-23T17:25:27.674+0000] {logging_mixin.py:190} INFO - [2025-02-23T17:25:27.674+0000] {dag.py:4180} INFO - Setting next_dagrun for bangalore_weather_pipeline to 2025-02-23 17:00:00+00:00, run_after=2025-02-23 18:00:00+00:00
+[2025-02-23T17:25:27.697+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/bangalore_weather_pipeline/bangalore_weather_etl.py took 0.109 seconds
+[2025-02-23T17:25:58.234+0000] {processor.py:186} INFO - Started process (PID=30803) to work on /opt/airflow/dags/bangalore_weather_pipeline/bangalore_weather_etl.py
+[2025-02-23T17:25:58.235+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/bangalore_weather_pipeline/bangalore_weather_etl.py for tasks to queue
+[2025-02-23T17:25:58.236+0000] {logging_mixin.py:190} INFO - [2025-02-23T17:25:58.236+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/bangalore_weather_pipeline/bangalore_weather_etl.py
+[2025-02-23T17:25:58.248+0000] {processor.py:925} INFO - DAG(s) 'bangalore_weather_pipeline' retrieved from /opt/airflow/dags/bangalore_weather_pipeline/bangalore_weather_etl.py
+[2025-02-23T17:25:58.282+0000] {logging_mixin.py:190} INFO - [2025-02-23T17:25:58.281+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-23T17:25:58.314+0000] {logging_mixin.py:190} INFO - [2025-02-23T17:25:58.314+0000] {dag.py:4180} INFO - Setting next_dagrun for bangalore_weather_pipeline to 2025-02-23 17:00:00+00:00, run_after=2025-02-23 18:00:00+00:00
+[2025-02-23T17:25:58.463+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/bangalore_weather_pipeline/bangalore_weather_etl.py took 0.236 seconds
+[2025-02-23T17:26:29.166+0000] {processor.py:186} INFO - Started process (PID=30814) to work on /opt/airflow/dags/bangalore_weather_pipeline/bangalore_weather_etl.py
+[2025-02-23T17:26:29.167+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/bangalore_weather_pipeline/bangalore_weather_etl.py for tasks to queue
+[2025-02-23T17:26:29.168+0000] {logging_mixin.py:190} INFO - [2025-02-23T17:26:29.168+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/bangalore_weather_pipeline/bangalore_weather_etl.py
+[2025-02-23T17:26:29.180+0000] {processor.py:925} INFO - DAG(s) 'bangalore_weather_pipeline' retrieved from /opt/airflow/dags/bangalore_weather_pipeline/bangalore_weather_etl.py
+[2025-02-23T17:26:29.213+0000] {logging_mixin.py:190} INFO - [2025-02-23T17:26:29.212+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-23T17:26:29.375+0000] {logging_mixin.py:190} INFO - [2025-02-23T17:26:29.375+0000] {dag.py:4180} INFO - Setting next_dagrun for bangalore_weather_pipeline to 2025-02-23 17:00:00+00:00, run_after=2025-02-23 18:00:00+00:00
+[2025-02-23T17:26:29.396+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/bangalore_weather_pipeline/bangalore_weather_etl.py took 0.237 seconds
+[2025-02-23T17:26:59.810+0000] {processor.py:186} INFO - Started process (PID=30825) to work on /opt/airflow/dags/bangalore_weather_pipeline/bangalore_weather_etl.py
+[2025-02-23T17:26:59.811+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/bangalore_weather_pipeline/bangalore_weather_etl.py for tasks to queue
+[2025-02-23T17:26:59.813+0000] {logging_mixin.py:190} INFO - [2025-02-23T17:26:59.812+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/bangalore_weather_pipeline/bangalore_weather_etl.py
+[2025-02-23T17:26:59.827+0000] {processor.py:925} INFO - DAG(s) 'bangalore_weather_pipeline' retrieved from /opt/airflow/dags/bangalore_weather_pipeline/bangalore_weather_etl.py
+[2025-02-23T17:26:59.860+0000] {logging_mixin.py:190} INFO - [2025-02-23T17:26:59.859+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-23T17:26:59.893+0000] {logging_mixin.py:190} INFO - [2025-02-23T17:26:59.893+0000] {dag.py:4180} INFO - Setting next_dagrun for bangalore_weather_pipeline to 2025-02-23 17:00:00+00:00, run_after=2025-02-23 18:00:00+00:00
+[2025-02-23T17:26:59.917+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/bangalore_weather_pipeline/bangalore_weather_etl.py took 0.116 seconds
+[2025-02-23T17:27:30.393+0000] {processor.py:186} INFO - Started process (PID=30836) to work on /opt/airflow/dags/bangalore_weather_pipeline/bangalore_weather_etl.py
+[2025-02-23T17:27:30.394+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/bangalore_weather_pipeline/bangalore_weather_etl.py for tasks to queue
+[2025-02-23T17:27:30.396+0000] {logging_mixin.py:190} INFO - [2025-02-23T17:27:30.395+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/bangalore_weather_pipeline/bangalore_weather_etl.py
+[2025-02-23T17:27:30.410+0000] {processor.py:925} INFO - DAG(s) 'bangalore_weather_pipeline' retrieved from /opt/airflow/dags/bangalore_weather_pipeline/bangalore_weather_etl.py
+[2025-02-23T17:27:30.444+0000] {logging_mixin.py:190} INFO - [2025-02-23T17:27:30.443+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-23T17:27:30.476+0000] {logging_mixin.py:190} INFO - [2025-02-23T17:27:30.476+0000] {dag.py:4180} INFO - Setting next_dagrun for bangalore_weather_pipeline to 2025-02-23 17:00:00+00:00, run_after=2025-02-23 18:00:00+00:00
+[2025-02-23T17:27:30.499+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/bangalore_weather_pipeline/bangalore_weather_etl.py took 0.115 seconds
+[2025-02-23T17:28:01.023+0000] {processor.py:186} INFO - Started process (PID=30847) to work on /opt/airflow/dags/bangalore_weather_pipeline/bangalore_weather_etl.py
+[2025-02-23T17:28:01.024+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/bangalore_weather_pipeline/bangalore_weather_etl.py for tasks to queue
+[2025-02-23T17:28:01.025+0000] {logging_mixin.py:190} INFO - [2025-02-23T17:28:01.025+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/bangalore_weather_pipeline/bangalore_weather_etl.py
+[2025-02-23T17:28:01.040+0000] {processor.py:925} INFO - DAG(s) 'bangalore_weather_pipeline' retrieved from /opt/airflow/dags/bangalore_weather_pipeline/bangalore_weather_etl.py
+[2025-02-23T17:28:01.076+0000] {logging_mixin.py:190} INFO - [2025-02-23T17:28:01.075+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-23T17:28:01.113+0000] {logging_mixin.py:190} INFO - [2025-02-23T17:28:01.113+0000] {dag.py:4180} INFO - Setting next_dagrun for bangalore_weather_pipeline to 2025-02-23 17:00:00+00:00, run_after=2025-02-23 18:00:00+00:00
+[2025-02-23T17:28:01.264+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/bangalore_weather_pipeline/bangalore_weather_etl.py took 0.249 seconds
+[2025-02-23T17:28:31.784+0000] {processor.py:186} INFO - Started process (PID=30858) to work on /opt/airflow/dags/bangalore_weather_pipeline/bangalore_weather_etl.py
+[2025-02-23T17:28:31.785+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/bangalore_weather_pipeline/bangalore_weather_etl.py for tasks to queue
+[2025-02-23T17:28:31.787+0000] {logging_mixin.py:190} INFO - [2025-02-23T17:28:31.786+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/bangalore_weather_pipeline/bangalore_weather_etl.py
+[2025-02-23T17:28:31.800+0000] {processor.py:925} INFO - DAG(s) 'bangalore_weather_pipeline' retrieved from /opt/airflow/dags/bangalore_weather_pipeline/bangalore_weather_etl.py
+[2025-02-23T17:28:31.832+0000] {logging_mixin.py:190} INFO - [2025-02-23T17:28:31.832+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-23T17:28:31.989+0000] {logging_mixin.py:190} INFO - [2025-02-23T17:28:31.989+0000] {dag.py:4180} INFO - Setting next_dagrun for bangalore_weather_pipeline to 2025-02-23 17:00:00+00:00, run_after=2025-02-23 18:00:00+00:00
+[2025-02-23T17:28:32.012+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/bangalore_weather_pipeline/bangalore_weather_etl.py took 0.236 seconds
+[2025-02-23T17:29:02.519+0000] {processor.py:186} INFO - Started process (PID=30869) to work on /opt/airflow/dags/bangalore_weather_pipeline/bangalore_weather_etl.py
+[2025-02-23T17:29:02.521+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/bangalore_weather_pipeline/bangalore_weather_etl.py for tasks to queue
+[2025-02-23T17:29:02.522+0000] {logging_mixin.py:190} INFO - [2025-02-23T17:29:02.522+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/bangalore_weather_pipeline/bangalore_weather_etl.py
+[2025-02-23T17:29:02.538+0000] {processor.py:925} INFO - DAG(s) 'bangalore_weather_pipeline' retrieved from /opt/airflow/dags/bangalore_weather_pipeline/bangalore_weather_etl.py
+[2025-02-23T17:29:02.573+0000] {logging_mixin.py:190} INFO - [2025-02-23T17:29:02.573+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-23T17:29:02.606+0000] {logging_mixin.py:190} INFO - [2025-02-23T17:29:02.606+0000] {dag.py:4180} INFO - Setting next_dagrun for bangalore_weather_pipeline to 2025-02-23 17:00:00+00:00, run_after=2025-02-23 18:00:00+00:00
+[2025-02-23T17:29:02.628+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/bangalore_weather_pipeline/bangalore_weather_etl.py took 0.117 seconds
+[2025-02-23T17:29:33.018+0000] {processor.py:186} INFO - Started process (PID=30880) to work on /opt/airflow/dags/bangalore_weather_pipeline/bangalore_weather_etl.py
+[2025-02-23T17:29:33.019+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/bangalore_weather_pipeline/bangalore_weather_etl.py for tasks to queue
+[2025-02-23T17:29:33.020+0000] {logging_mixin.py:190} INFO - [2025-02-23T17:29:33.020+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/bangalore_weather_pipeline/bangalore_weather_etl.py
+[2025-02-23T17:29:33.033+0000] {processor.py:925} INFO - DAG(s) 'bangalore_weather_pipeline' retrieved from /opt/airflow/dags/bangalore_weather_pipeline/bangalore_weather_etl.py
+[2025-02-23T17:29:33.069+0000] {logging_mixin.py:190} INFO - [2025-02-23T17:29:33.068+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-23T17:29:33.103+0000] {logging_mixin.py:190} INFO - [2025-02-23T17:29:33.103+0000] {dag.py:4180} INFO - Setting next_dagrun for bangalore_weather_pipeline to 2025-02-23 17:00:00+00:00, run_after=2025-02-23 18:00:00+00:00
+[2025-02-23T17:29:33.125+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/bangalore_weather_pipeline/bangalore_weather_etl.py took 0.114 seconds
+[2025-02-23T17:30:03.589+0000] {processor.py:186} INFO - Started process (PID=30891) to work on /opt/airflow/dags/bangalore_weather_pipeline/bangalore_weather_etl.py
+[2025-02-23T17:30:03.590+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/bangalore_weather_pipeline/bangalore_weather_etl.py for tasks to queue
+[2025-02-23T17:30:03.592+0000] {logging_mixin.py:190} INFO - [2025-02-23T17:30:03.591+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/bangalore_weather_pipeline/bangalore_weather_etl.py
+[2025-02-23T17:30:03.606+0000] {processor.py:925} INFO - DAG(s) 'bangalore_weather_pipeline' retrieved from /opt/airflow/dags/bangalore_weather_pipeline/bangalore_weather_etl.py
+[2025-02-23T17:30:03.638+0000] {logging_mixin.py:190} INFO - [2025-02-23T17:30:03.638+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-23T17:30:03.670+0000] {logging_mixin.py:190} INFO - [2025-02-23T17:30:03.670+0000] {dag.py:4180} INFO - Setting next_dagrun for bangalore_weather_pipeline to 2025-02-23 17:00:00+00:00, run_after=2025-02-23 18:00:00+00:00
+[2025-02-23T17:30:03.692+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/bangalore_weather_pipeline/bangalore_weather_etl.py took 0.111 seconds
+[2025-02-23T17:30:34.218+0000] {processor.py:186} INFO - Started process (PID=30902) to work on /opt/airflow/dags/bangalore_weather_pipeline/bangalore_weather_etl.py
+[2025-02-23T17:30:34.219+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/bangalore_weather_pipeline/bangalore_weather_etl.py for tasks to queue
+[2025-02-23T17:30:34.220+0000] {logging_mixin.py:190} INFO - [2025-02-23T17:30:34.220+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/bangalore_weather_pipeline/bangalore_weather_etl.py
+[2025-02-23T17:30:34.232+0000] {processor.py:925} INFO - DAG(s) 'bangalore_weather_pipeline' retrieved from /opt/airflow/dags/bangalore_weather_pipeline/bangalore_weather_etl.py
+[2025-02-23T17:30:34.267+0000] {logging_mixin.py:190} INFO - [2025-02-23T17:30:34.267+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-23T17:30:34.430+0000] {logging_mixin.py:190} INFO - [2025-02-23T17:30:34.430+0000] {dag.py:4180} INFO - Setting next_dagrun for bangalore_weather_pipeline to 2025-02-23 17:00:00+00:00, run_after=2025-02-23 18:00:00+00:00
+[2025-02-23T17:30:34.452+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/bangalore_weather_pipeline/bangalore_weather_etl.py took 0.241 seconds
+[2025-02-23T17:31:05.148+0000] {processor.py:186} INFO - Started process (PID=30913) to work on /opt/airflow/dags/bangalore_weather_pipeline/bangalore_weather_etl.py
+[2025-02-23T17:31:05.149+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/bangalore_weather_pipeline/bangalore_weather_etl.py for tasks to queue
+[2025-02-23T17:31:05.150+0000] {logging_mixin.py:190} INFO - [2025-02-23T17:31:05.150+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/bangalore_weather_pipeline/bangalore_weather_etl.py
+[2025-02-23T17:31:05.162+0000] {processor.py:925} INFO - DAG(s) 'bangalore_weather_pipeline' retrieved from /opt/airflow/dags/bangalore_weather_pipeline/bangalore_weather_etl.py
+[2025-02-23T17:31:05.194+0000] {logging_mixin.py:190} INFO - [2025-02-23T17:31:05.194+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-23T17:31:05.353+0000] {logging_mixin.py:190} INFO - [2025-02-23T17:31:05.353+0000] {dag.py:4180} INFO - Setting next_dagrun for bangalore_weather_pipeline to 2025-02-23 17:00:00+00:00, run_after=2025-02-23 18:00:00+00:00
+[2025-02-23T17:31:05.375+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/bangalore_weather_pipeline/bangalore_weather_etl.py took 0.234 seconds
+[2025-02-23T17:31:35.788+0000] {processor.py:186} INFO - Started process (PID=30924) to work on /opt/airflow/dags/bangalore_weather_pipeline/bangalore_weather_etl.py
+[2025-02-23T17:31:35.789+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/bangalore_weather_pipeline/bangalore_weather_etl.py for tasks to queue
+[2025-02-23T17:31:35.791+0000] {logging_mixin.py:190} INFO - [2025-02-23T17:31:35.790+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/bangalore_weather_pipeline/bangalore_weather_etl.py
+[2025-02-23T17:31:35.804+0000] {processor.py:925} INFO - DAG(s) 'bangalore_weather_pipeline' retrieved from /opt/airflow/dags/bangalore_weather_pipeline/bangalore_weather_etl.py
+[2025-02-23T17:31:35.837+0000] {logging_mixin.py:190} INFO - [2025-02-23T17:31:35.837+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-23T17:31:35.871+0000] {logging_mixin.py:190} INFO - [2025-02-23T17:31:35.870+0000] {dag.py:4180} INFO - Setting next_dagrun for bangalore_weather_pipeline to 2025-02-23 17:00:00+00:00, run_after=2025-02-23 18:00:00+00:00
+[2025-02-23T17:31:35.905+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/bangalore_weather_pipeline/bangalore_weather_etl.py took 0.126 seconds

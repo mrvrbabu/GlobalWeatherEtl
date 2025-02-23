@@ -272,3 +272,108 @@
 [2025-02-23T17:23:50.597+0000] {logging_mixin.py:190} INFO - [2025-02-23T17:23:50.597+0000] {dag.py:3239} INFO - Sync 1 DAGs
 [2025-02-23T17:23:50.630+0000] {logging_mixin.py:190} INFO - [2025-02-23T17:23:50.629+0000] {dag.py:4180} INFO - Setting next_dagrun for sydney_weather_pipeline to 2025-02-23 17:00:00+00:00, run_after=2025-02-23 18:00:00+00:00
 [2025-02-23T17:23:50.777+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/sydney_weather_pipeline/sydney_weather_etl.py took 0.238 seconds
+[2025-02-23T17:24:21.376+0000] {processor.py:186} INFO - Started process (PID=30767) to work on /opt/airflow/dags/sydney_weather_pipeline/sydney_weather_etl.py
+[2025-02-23T17:24:21.377+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/sydney_weather_pipeline/sydney_weather_etl.py for tasks to queue
+[2025-02-23T17:24:21.379+0000] {logging_mixin.py:190} INFO - [2025-02-23T17:24:21.378+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/sydney_weather_pipeline/sydney_weather_etl.py
+[2025-02-23T17:24:21.393+0000] {processor.py:925} INFO - DAG(s) 'sydney_weather_pipeline' retrieved from /opt/airflow/dags/sydney_weather_pipeline/sydney_weather_etl.py
+[2025-02-23T17:24:21.428+0000] {logging_mixin.py:190} INFO - [2025-02-23T17:24:21.427+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-23T17:24:21.460+0000] {logging_mixin.py:190} INFO - [2025-02-23T17:24:21.460+0000] {dag.py:4180} INFO - Setting next_dagrun for sydney_weather_pipeline to 2025-02-23 17:00:00+00:00, run_after=2025-02-23 18:00:00+00:00
+[2025-02-23T17:24:21.482+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/sydney_weather_pipeline/sydney_weather_etl.py took 0.115 seconds
+[2025-02-23T17:24:51.843+0000] {processor.py:186} INFO - Started process (PID=30778) to work on /opt/airflow/dags/sydney_weather_pipeline/sydney_weather_etl.py
+[2025-02-23T17:24:51.844+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/sydney_weather_pipeline/sydney_weather_etl.py for tasks to queue
+[2025-02-23T17:24:51.845+0000] {logging_mixin.py:190} INFO - [2025-02-23T17:24:51.845+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/sydney_weather_pipeline/sydney_weather_etl.py
+[2025-02-23T17:24:51.859+0000] {processor.py:925} INFO - DAG(s) 'sydney_weather_pipeline' retrieved from /opt/airflow/dags/sydney_weather_pipeline/sydney_weather_etl.py
+[2025-02-23T17:24:51.892+0000] {logging_mixin.py:190} INFO - [2025-02-23T17:24:51.892+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-23T17:24:51.925+0000] {logging_mixin.py:190} INFO - [2025-02-23T17:24:51.924+0000] {dag.py:4180} INFO - Setting next_dagrun for sydney_weather_pipeline to 2025-02-23 17:00:00+00:00, run_after=2025-02-23 18:00:00+00:00
+[2025-02-23T17:24:51.948+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/sydney_weather_pipeline/sydney_weather_etl.py took 0.112 seconds
+[2025-02-23T17:25:22.339+0000] {processor.py:186} INFO - Started process (PID=30789) to work on /opt/airflow/dags/sydney_weather_pipeline/sydney_weather_etl.py
+[2025-02-23T17:25:22.340+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/sydney_weather_pipeline/sydney_weather_etl.py for tasks to queue
+[2025-02-23T17:25:22.342+0000] {logging_mixin.py:190} INFO - [2025-02-23T17:25:22.341+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/sydney_weather_pipeline/sydney_weather_etl.py
+[2025-02-23T17:25:22.355+0000] {processor.py:925} INFO - DAG(s) 'sydney_weather_pipeline' retrieved from /opt/airflow/dags/sydney_weather_pipeline/sydney_weather_etl.py
+[2025-02-23T17:25:22.387+0000] {logging_mixin.py:190} INFO - [2025-02-23T17:25:22.386+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-23T17:25:22.426+0000] {logging_mixin.py:190} INFO - [2025-02-23T17:25:22.426+0000] {dag.py:4180} INFO - Setting next_dagrun for sydney_weather_pipeline to 2025-02-23 17:00:00+00:00, run_after=2025-02-23 18:00:00+00:00
+[2025-02-23T17:25:22.449+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/sydney_weather_pipeline/sydney_weather_etl.py took 0.117 seconds
+[2025-02-23T17:25:52.887+0000] {processor.py:186} INFO - Started process (PID=30800) to work on /opt/airflow/dags/sydney_weather_pipeline/sydney_weather_etl.py
+[2025-02-23T17:25:52.888+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/sydney_weather_pipeline/sydney_weather_etl.py for tasks to queue
+[2025-02-23T17:25:52.890+0000] {logging_mixin.py:190} INFO - [2025-02-23T17:25:52.889+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/sydney_weather_pipeline/sydney_weather_etl.py
+[2025-02-23T17:25:52.902+0000] {processor.py:925} INFO - DAG(s) 'sydney_weather_pipeline' retrieved from /opt/airflow/dags/sydney_weather_pipeline/sydney_weather_etl.py
+[2025-02-23T17:25:52.933+0000] {logging_mixin.py:190} INFO - [2025-02-23T17:25:52.933+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-23T17:25:52.963+0000] {logging_mixin.py:190} INFO - [2025-02-23T17:25:52.962+0000] {dag.py:4180} INFO - Setting next_dagrun for sydney_weather_pipeline to 2025-02-23 17:00:00+00:00, run_after=2025-02-23 18:00:00+00:00
+[2025-02-23T17:25:53.113+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/sydney_weather_pipeline/sydney_weather_etl.py took 0.234 seconds
+[2025-02-23T17:26:23.648+0000] {processor.py:186} INFO - Started process (PID=30811) to work on /opt/airflow/dags/sydney_weather_pipeline/sydney_weather_etl.py
+[2025-02-23T17:26:23.648+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/sydney_weather_pipeline/sydney_weather_etl.py for tasks to queue
+[2025-02-23T17:26:23.650+0000] {logging_mixin.py:190} INFO - [2025-02-23T17:26:23.649+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/sydney_weather_pipeline/sydney_weather_etl.py
+[2025-02-23T17:26:23.662+0000] {processor.py:925} INFO - DAG(s) 'sydney_weather_pipeline' retrieved from /opt/airflow/dags/sydney_weather_pipeline/sydney_weather_etl.py
+[2025-02-23T17:26:23.693+0000] {logging_mixin.py:190} INFO - [2025-02-23T17:26:23.693+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-23T17:26:23.851+0000] {logging_mixin.py:190} INFO - [2025-02-23T17:26:23.851+0000] {dag.py:4180} INFO - Setting next_dagrun for sydney_weather_pipeline to 2025-02-23 17:00:00+00:00, run_after=2025-02-23 18:00:00+00:00
+[2025-02-23T17:26:23.881+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/sydney_weather_pipeline/sydney_weather_etl.py took 0.240 seconds
+[2025-02-23T17:26:54.589+0000] {processor.py:186} INFO - Started process (PID=30822) to work on /opt/airflow/dags/sydney_weather_pipeline/sydney_weather_etl.py
+[2025-02-23T17:26:54.590+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/sydney_weather_pipeline/sydney_weather_etl.py for tasks to queue
+[2025-02-23T17:26:54.592+0000] {logging_mixin.py:190} INFO - [2025-02-23T17:26:54.591+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/sydney_weather_pipeline/sydney_weather_etl.py
+[2025-02-23T17:26:54.606+0000] {processor.py:925} INFO - DAG(s) 'sydney_weather_pipeline' retrieved from /opt/airflow/dags/sydney_weather_pipeline/sydney_weather_etl.py
+[2025-02-23T17:26:54.641+0000] {logging_mixin.py:190} INFO - [2025-02-23T17:26:54.641+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-23T17:26:54.677+0000] {logging_mixin.py:190} INFO - [2025-02-23T17:26:54.676+0000] {dag.py:4180} INFO - Setting next_dagrun for sydney_weather_pipeline to 2025-02-23 17:00:00+00:00, run_after=2025-02-23 18:00:00+00:00
+[2025-02-23T17:26:54.710+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/sydney_weather_pipeline/sydney_weather_etl.py took 0.131 seconds
+[2025-02-23T17:27:25.105+0000] {processor.py:186} INFO - Started process (PID=30833) to work on /opt/airflow/dags/sydney_weather_pipeline/sydney_weather_etl.py
+[2025-02-23T17:27:25.106+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/sydney_weather_pipeline/sydney_weather_etl.py for tasks to queue
+[2025-02-23T17:27:25.107+0000] {logging_mixin.py:190} INFO - [2025-02-23T17:27:25.107+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/sydney_weather_pipeline/sydney_weather_etl.py
+[2025-02-23T17:27:25.119+0000] {processor.py:925} INFO - DAG(s) 'sydney_weather_pipeline' retrieved from /opt/airflow/dags/sydney_weather_pipeline/sydney_weather_etl.py
+[2025-02-23T17:27:25.153+0000] {logging_mixin.py:190} INFO - [2025-02-23T17:27:25.153+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-23T17:27:25.186+0000] {logging_mixin.py:190} INFO - [2025-02-23T17:27:25.185+0000] {dag.py:4180} INFO - Setting next_dagrun for sydney_weather_pipeline to 2025-02-23 17:00:00+00:00, run_after=2025-02-23 18:00:00+00:00
+[2025-02-23T17:27:25.209+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/sydney_weather_pipeline/sydney_weather_etl.py took 0.110 seconds
+[2025-02-23T17:27:55.688+0000] {processor.py:186} INFO - Started process (PID=30844) to work on /opt/airflow/dags/sydney_weather_pipeline/sydney_weather_etl.py
+[2025-02-23T17:27:55.699+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/sydney_weather_pipeline/sydney_weather_etl.py for tasks to queue
+[2025-02-23T17:27:55.700+0000] {logging_mixin.py:190} INFO - [2025-02-23T17:27:55.700+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/sydney_weather_pipeline/sydney_weather_etl.py
+[2025-02-23T17:27:55.718+0000] {processor.py:925} INFO - DAG(s) 'sydney_weather_pipeline' retrieved from /opt/airflow/dags/sydney_weather_pipeline/sydney_weather_etl.py
+[2025-02-23T17:27:55.756+0000] {logging_mixin.py:190} INFO - [2025-02-23T17:27:55.756+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-23T17:27:55.792+0000] {logging_mixin.py:190} INFO - [2025-02-23T17:27:55.792+0000] {dag.py:4180} INFO - Setting next_dagrun for sydney_weather_pipeline to 2025-02-23 17:00:00+00:00, run_after=2025-02-23 18:00:00+00:00
+[2025-02-23T17:27:55.949+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/sydney_weather_pipeline/sydney_weather_etl.py took 0.270 seconds
+[2025-02-23T17:28:26.460+0000] {processor.py:186} INFO - Started process (PID=30855) to work on /opt/airflow/dags/sydney_weather_pipeline/sydney_weather_etl.py
+[2025-02-23T17:28:26.461+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/sydney_weather_pipeline/sydney_weather_etl.py for tasks to queue
+[2025-02-23T17:28:26.462+0000] {logging_mixin.py:190} INFO - [2025-02-23T17:28:26.462+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/sydney_weather_pipeline/sydney_weather_etl.py
+[2025-02-23T17:28:26.475+0000] {processor.py:925} INFO - DAG(s) 'sydney_weather_pipeline' retrieved from /opt/airflow/dags/sydney_weather_pipeline/sydney_weather_etl.py
+[2025-02-23T17:28:26.507+0000] {logging_mixin.py:190} INFO - [2025-02-23T17:28:26.507+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-23T17:28:26.675+0000] {logging_mixin.py:190} INFO - [2025-02-23T17:28:26.675+0000] {dag.py:4180} INFO - Setting next_dagrun for sydney_weather_pipeline to 2025-02-23 17:00:00+00:00, run_after=2025-02-23 18:00:00+00:00
+[2025-02-23T17:28:26.694+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/sydney_weather_pipeline/sydney_weather_etl.py took 0.241 seconds
+[2025-02-23T17:28:57.210+0000] {processor.py:186} INFO - Started process (PID=30866) to work on /opt/airflow/dags/sydney_weather_pipeline/sydney_weather_etl.py
+[2025-02-23T17:28:57.211+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/sydney_weather_pipeline/sydney_weather_etl.py for tasks to queue
+[2025-02-23T17:28:57.213+0000] {logging_mixin.py:190} INFO - [2025-02-23T17:28:57.213+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/sydney_weather_pipeline/sydney_weather_etl.py
+[2025-02-23T17:28:57.226+0000] {processor.py:925} INFO - DAG(s) 'sydney_weather_pipeline' retrieved from /opt/airflow/dags/sydney_weather_pipeline/sydney_weather_etl.py
+[2025-02-23T17:28:57.389+0000] {logging_mixin.py:190} INFO - [2025-02-23T17:28:57.388+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-23T17:28:57.416+0000] {logging_mixin.py:190} INFO - [2025-02-23T17:28:57.415+0000] {dag.py:4180} INFO - Setting next_dagrun for sydney_weather_pipeline to 2025-02-23 17:00:00+00:00, run_after=2025-02-23 18:00:00+00:00
+[2025-02-23T17:28:57.435+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/sydney_weather_pipeline/sydney_weather_etl.py took 0.232 seconds
+[2025-02-23T17:29:27.835+0000] {processor.py:186} INFO - Started process (PID=30877) to work on /opt/airflow/dags/sydney_weather_pipeline/sydney_weather_etl.py
+[2025-02-23T17:29:27.836+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/sydney_weather_pipeline/sydney_weather_etl.py for tasks to queue
+[2025-02-23T17:29:27.838+0000] {logging_mixin.py:190} INFO - [2025-02-23T17:29:27.837+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/sydney_weather_pipeline/sydney_weather_etl.py
+[2025-02-23T17:29:27.854+0000] {processor.py:925} INFO - DAG(s) 'sydney_weather_pipeline' retrieved from /opt/airflow/dags/sydney_weather_pipeline/sydney_weather_etl.py
+[2025-02-23T17:29:27.888+0000] {logging_mixin.py:190} INFO - [2025-02-23T17:29:27.887+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-23T17:29:27.921+0000] {logging_mixin.py:190} INFO - [2025-02-23T17:29:27.920+0000] {dag.py:4180} INFO - Setting next_dagrun for sydney_weather_pipeline to 2025-02-23 17:00:00+00:00, run_after=2025-02-23 18:00:00+00:00
+[2025-02-23T17:29:27.943+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/sydney_weather_pipeline/sydney_weather_etl.py took 0.117 seconds
+[2025-02-23T17:29:58.315+0000] {processor.py:186} INFO - Started process (PID=30888) to work on /opt/airflow/dags/sydney_weather_pipeline/sydney_weather_etl.py
+[2025-02-23T17:29:58.318+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/sydney_weather_pipeline/sydney_weather_etl.py for tasks to queue
+[2025-02-23T17:29:58.320+0000] {logging_mixin.py:190} INFO - [2025-02-23T17:29:58.319+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/sydney_weather_pipeline/sydney_weather_etl.py
+[2025-02-23T17:29:58.334+0000] {processor.py:925} INFO - DAG(s) 'sydney_weather_pipeline' retrieved from /opt/airflow/dags/sydney_weather_pipeline/sydney_weather_etl.py
+[2025-02-23T17:29:58.372+0000] {logging_mixin.py:190} INFO - [2025-02-23T17:29:58.372+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-23T17:29:58.404+0000] {logging_mixin.py:190} INFO - [2025-02-23T17:29:58.404+0000] {dag.py:4180} INFO - Setting next_dagrun for sydney_weather_pipeline to 2025-02-23 17:00:00+00:00, run_after=2025-02-23 18:00:00+00:00
+[2025-02-23T17:29:58.429+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/sydney_weather_pipeline/sydney_weather_etl.py took 0.123 seconds
+[2025-02-23T17:30:28.900+0000] {processor.py:186} INFO - Started process (PID=30899) to work on /opt/airflow/dags/sydney_weather_pipeline/sydney_weather_etl.py
+[2025-02-23T17:30:28.901+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/sydney_weather_pipeline/sydney_weather_etl.py for tasks to queue
+[2025-02-23T17:30:28.903+0000] {logging_mixin.py:190} INFO - [2025-02-23T17:30:28.902+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/sydney_weather_pipeline/sydney_weather_etl.py
+[2025-02-23T17:30:28.917+0000] {processor.py:925} INFO - DAG(s) 'sydney_weather_pipeline' retrieved from /opt/airflow/dags/sydney_weather_pipeline/sydney_weather_etl.py
+[2025-02-23T17:30:28.950+0000] {logging_mixin.py:190} INFO - [2025-02-23T17:30:28.949+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-23T17:30:28.982+0000] {logging_mixin.py:190} INFO - [2025-02-23T17:30:28.982+0000] {dag.py:4180} INFO - Setting next_dagrun for sydney_weather_pipeline to 2025-02-23 17:00:00+00:00, run_after=2025-02-23 18:00:00+00:00
+[2025-02-23T17:30:29.133+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/sydney_weather_pipeline/sydney_weather_etl.py took 0.241 seconds
+[2025-02-23T17:30:59.632+0000] {processor.py:186} INFO - Started process (PID=30910) to work on /opt/airflow/dags/sydney_weather_pipeline/sydney_weather_etl.py
+[2025-02-23T17:30:59.633+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/sydney_weather_pipeline/sydney_weather_etl.py for tasks to queue
+[2025-02-23T17:30:59.634+0000] {logging_mixin.py:190} INFO - [2025-02-23T17:30:59.634+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/sydney_weather_pipeline/sydney_weather_etl.py
+[2025-02-23T17:30:59.647+0000] {processor.py:925} INFO - DAG(s) 'sydney_weather_pipeline' retrieved from /opt/airflow/dags/sydney_weather_pipeline/sydney_weather_etl.py
+[2025-02-23T17:30:59.680+0000] {logging_mixin.py:190} INFO - [2025-02-23T17:30:59.679+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-23T17:30:59.843+0000] {logging_mixin.py:190} INFO - [2025-02-23T17:30:59.843+0000] {dag.py:4180} INFO - Setting next_dagrun for sydney_weather_pipeline to 2025-02-23 17:00:00+00:00, run_after=2025-02-23 18:00:00+00:00
+[2025-02-23T17:30:59.863+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/sydney_weather_pipeline/sydney_weather_etl.py took 0.239 seconds
+[2025-02-23T17:31:30.569+0000] {processor.py:186} INFO - Started process (PID=30921) to work on /opt/airflow/dags/sydney_weather_pipeline/sydney_weather_etl.py
+[2025-02-23T17:31:30.570+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/sydney_weather_pipeline/sydney_weather_etl.py for tasks to queue
+[2025-02-23T17:31:30.571+0000] {logging_mixin.py:190} INFO - [2025-02-23T17:31:30.571+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/sydney_weather_pipeline/sydney_weather_etl.py
+[2025-02-23T17:31:30.584+0000] {processor.py:925} INFO - DAG(s) 'sydney_weather_pipeline' retrieved from /opt/airflow/dags/sydney_weather_pipeline/sydney_weather_etl.py
+[2025-02-23T17:31:30.615+0000] {logging_mixin.py:190} INFO - [2025-02-23T17:31:30.615+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-23T17:31:30.647+0000] {logging_mixin.py:190} INFO - [2025-02-23T17:31:30.647+0000] {dag.py:4180} INFO - Setting next_dagrun for sydney_weather_pipeline to 2025-02-23 17:00:00+00:00, run_after=2025-02-23 18:00:00+00:00
+[2025-02-23T17:31:30.668+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/sydney_weather_pipeline/sydney_weather_etl.py took 0.106 seconds

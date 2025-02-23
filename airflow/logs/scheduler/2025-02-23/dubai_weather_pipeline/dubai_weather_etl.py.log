@@ -4034,3 +4034,115 @@ TypeError: missing a required argument: 'transformed_data'
 [2025-02-23T17:23:27.414+0000] {logging_mixin.py:190} INFO - [2025-02-23T17:23:27.414+0000] {dag.py:3239} INFO - Sync 1 DAGs
 [2025-02-23T17:23:27.445+0000] {logging_mixin.py:190} INFO - [2025-02-23T17:23:27.445+0000] {dag.py:4180} INFO - Setting next_dagrun for dubai_weather_pipeline to 2025-02-23 17:00:00+00:00, run_after=2025-02-23 18:00:00+00:00
 [2025-02-23T17:23:27.466+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dubai_weather_pipeline/dubai_weather_etl.py took 0.111 seconds
+[2025-02-23T17:23:58.129+0000] {processor.py:186} INFO - Started process (PID=30760) to work on /opt/airflow/dags/dubai_weather_pipeline/dubai_weather_etl.py
+[2025-02-23T17:23:58.136+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dubai_weather_pipeline/dubai_weather_etl.py for tasks to queue
+[2025-02-23T17:23:58.138+0000] {logging_mixin.py:190} INFO - [2025-02-23T17:23:58.137+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dubai_weather_pipeline/dubai_weather_etl.py
+[2025-02-23T17:23:58.151+0000] {processor.py:925} INFO - DAG(s) 'dubai_weather_pipeline' retrieved from /opt/airflow/dags/dubai_weather_pipeline/dubai_weather_etl.py
+[2025-02-23T17:23:58.190+0000] {logging_mixin.py:190} INFO - [2025-02-23T17:23:58.189+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-23T17:23:58.351+0000] {logging_mixin.py:190} INFO - [2025-02-23T17:23:58.350+0000] {dag.py:4180} INFO - Setting next_dagrun for dubai_weather_pipeline to 2025-02-23 17:00:00+00:00, run_after=2025-02-23 18:00:00+00:00
+[2025-02-23T17:23:58.369+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dubai_weather_pipeline/dubai_weather_etl.py took 0.248 seconds
+[2025-02-23T17:24:28.574+0000] {processor.py:186} INFO - Started process (PID=30771) to work on /opt/airflow/dags/dubai_weather_pipeline/dubai_weather_etl.py
+[2025-02-23T17:24:28.575+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dubai_weather_pipeline/dubai_weather_etl.py for tasks to queue
+[2025-02-23T17:24:28.576+0000] {logging_mixin.py:190} INFO - [2025-02-23T17:24:28.576+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dubai_weather_pipeline/dubai_weather_etl.py
+[2025-02-23T17:24:28.590+0000] {processor.py:925} INFO - DAG(s) 'dubai_weather_pipeline' retrieved from /opt/airflow/dags/dubai_weather_pipeline/dubai_weather_etl.py
+[2025-02-23T17:24:28.625+0000] {logging_mixin.py:190} INFO - [2025-02-23T17:24:28.625+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-23T17:24:28.657+0000] {logging_mixin.py:190} INFO - [2025-02-23T17:24:28.657+0000] {dag.py:4180} INFO - Setting next_dagrun for dubai_weather_pipeline to 2025-02-23 17:00:00+00:00, run_after=2025-02-23 18:00:00+00:00
+[2025-02-23T17:24:28.678+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dubai_weather_pipeline/dubai_weather_etl.py took 0.113 seconds
+[2025-02-23T17:24:59.169+0000] {processor.py:186} INFO - Started process (PID=30782) to work on /opt/airflow/dags/dubai_weather_pipeline/dubai_weather_etl.py
+[2025-02-23T17:24:59.170+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dubai_weather_pipeline/dubai_weather_etl.py for tasks to queue
+[2025-02-23T17:24:59.171+0000] {logging_mixin.py:190} INFO - [2025-02-23T17:24:59.171+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dubai_weather_pipeline/dubai_weather_etl.py
+[2025-02-23T17:24:59.184+0000] {processor.py:925} INFO - DAG(s) 'dubai_weather_pipeline' retrieved from /opt/airflow/dags/dubai_weather_pipeline/dubai_weather_etl.py
+[2025-02-23T17:24:59.217+0000] {logging_mixin.py:190} INFO - [2025-02-23T17:24:59.217+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-23T17:24:59.260+0000] {logging_mixin.py:190} INFO - [2025-02-23T17:24:59.260+0000] {dag.py:4180} INFO - Setting next_dagrun for dubai_weather_pipeline to 2025-02-23 17:00:00+00:00, run_after=2025-02-23 18:00:00+00:00
+[2025-02-23T17:24:59.283+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dubai_weather_pipeline/dubai_weather_etl.py took 0.121 seconds
+[2025-02-23T17:25:29.663+0000] {processor.py:186} INFO - Started process (PID=30793) to work on /opt/airflow/dags/dubai_weather_pipeline/dubai_weather_etl.py
+[2025-02-23T17:25:29.663+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dubai_weather_pipeline/dubai_weather_etl.py for tasks to queue
+[2025-02-23T17:25:29.665+0000] {logging_mixin.py:190} INFO - [2025-02-23T17:25:29.665+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dubai_weather_pipeline/dubai_weather_etl.py
+[2025-02-23T17:25:29.679+0000] {processor.py:925} INFO - DAG(s) 'dubai_weather_pipeline' retrieved from /opt/airflow/dags/dubai_weather_pipeline/dubai_weather_etl.py
+[2025-02-23T17:25:29.713+0000] {logging_mixin.py:190} INFO - [2025-02-23T17:25:29.713+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-23T17:25:29.746+0000] {logging_mixin.py:190} INFO - [2025-02-23T17:25:29.746+0000] {dag.py:4180} INFO - Setting next_dagrun for dubai_weather_pipeline to 2025-02-23 17:00:00+00:00, run_after=2025-02-23 18:00:00+00:00
+[2025-02-23T17:25:29.777+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dubai_weather_pipeline/dubai_weather_etl.py took 0.123 seconds
+[2025-02-23T17:26:00.455+0000] {processor.py:186} INFO - Started process (PID=30804) to work on /opt/airflow/dags/dubai_weather_pipeline/dubai_weather_etl.py
+[2025-02-23T17:26:00.456+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dubai_weather_pipeline/dubai_weather_etl.py for tasks to queue
+[2025-02-23T17:26:00.458+0000] {logging_mixin.py:190} INFO - [2025-02-23T17:26:00.457+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dubai_weather_pipeline/dubai_weather_etl.py
+[2025-02-23T17:26:00.473+0000] {processor.py:925} INFO - DAG(s) 'dubai_weather_pipeline' retrieved from /opt/airflow/dags/dubai_weather_pipeline/dubai_weather_etl.py
+[2025-02-23T17:26:00.507+0000] {logging_mixin.py:190} INFO - [2025-02-23T17:26:00.506+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-23T17:26:00.670+0000] {logging_mixin.py:190} INFO - [2025-02-23T17:26:00.669+0000] {dag.py:4180} INFO - Setting next_dagrun for dubai_weather_pipeline to 2025-02-23 17:00:00+00:00, run_after=2025-02-23 18:00:00+00:00
+[2025-02-23T17:26:00.689+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dubai_weather_pipeline/dubai_weather_etl.py took 0.243 seconds
+[2025-02-23T17:26:31.225+0000] {processor.py:186} INFO - Started process (PID=30815) to work on /opt/airflow/dags/dubai_weather_pipeline/dubai_weather_etl.py
+[2025-02-23T17:26:31.225+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dubai_weather_pipeline/dubai_weather_etl.py for tasks to queue
+[2025-02-23T17:26:31.227+0000] {logging_mixin.py:190} INFO - [2025-02-23T17:26:31.226+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dubai_weather_pipeline/dubai_weather_etl.py
+[2025-02-23T17:26:31.239+0000] {processor.py:925} INFO - DAG(s) 'dubai_weather_pipeline' retrieved from /opt/airflow/dags/dubai_weather_pipeline/dubai_weather_etl.py
+[2025-02-23T17:26:31.273+0000] {logging_mixin.py:190} INFO - [2025-02-23T17:26:31.273+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-23T17:26:31.432+0000] {logging_mixin.py:190} INFO - [2025-02-23T17:26:31.432+0000] {dag.py:4180} INFO - Setting next_dagrun for dubai_weather_pipeline to 2025-02-23 17:00:00+00:00, run_after=2025-02-23 18:00:00+00:00
+[2025-02-23T17:26:31.455+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dubai_weather_pipeline/dubai_weather_etl.py took 0.237 seconds
+[2025-02-23T17:27:01.937+0000] {processor.py:186} INFO - Started process (PID=30826) to work on /opt/airflow/dags/dubai_weather_pipeline/dubai_weather_etl.py
+[2025-02-23T17:27:01.937+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dubai_weather_pipeline/dubai_weather_etl.py for tasks to queue
+[2025-02-23T17:27:01.939+0000] {logging_mixin.py:190} INFO - [2025-02-23T17:27:01.938+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dubai_weather_pipeline/dubai_weather_etl.py
+[2025-02-23T17:27:01.953+0000] {processor.py:925} INFO - DAG(s) 'dubai_weather_pipeline' retrieved from /opt/airflow/dags/dubai_weather_pipeline/dubai_weather_etl.py
+[2025-02-23T17:27:01.985+0000] {logging_mixin.py:190} INFO - [2025-02-23T17:27:01.985+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-23T17:27:02.018+0000] {logging_mixin.py:190} INFO - [2025-02-23T17:27:02.017+0000] {dag.py:4180} INFO - Setting next_dagrun for dubai_weather_pipeline to 2025-02-23 17:00:00+00:00, run_after=2025-02-23 18:00:00+00:00
+[2025-02-23T17:27:02.045+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dubai_weather_pipeline/dubai_weather_etl.py took 0.118 seconds
+[2025-02-23T17:27:32.444+0000] {processor.py:186} INFO - Started process (PID=30837) to work on /opt/airflow/dags/dubai_weather_pipeline/dubai_weather_etl.py
+[2025-02-23T17:27:32.445+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dubai_weather_pipeline/dubai_weather_etl.py for tasks to queue
+[2025-02-23T17:27:32.446+0000] {logging_mixin.py:190} INFO - [2025-02-23T17:27:32.446+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dubai_weather_pipeline/dubai_weather_etl.py
+[2025-02-23T17:27:32.461+0000] {processor.py:925} INFO - DAG(s) 'dubai_weather_pipeline' retrieved from /opt/airflow/dags/dubai_weather_pipeline/dubai_weather_etl.py
+[2025-02-23T17:27:32.494+0000] {logging_mixin.py:190} INFO - [2025-02-23T17:27:32.494+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-23T17:27:32.527+0000] {logging_mixin.py:190} INFO - [2025-02-23T17:27:32.526+0000] {dag.py:4180} INFO - Setting next_dagrun for dubai_weather_pipeline to 2025-02-23 17:00:00+00:00, run_after=2025-02-23 18:00:00+00:00
+[2025-02-23T17:27:32.548+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dubai_weather_pipeline/dubai_weather_etl.py took 0.113 seconds
+[2025-02-23T17:28:03.056+0000] {processor.py:186} INFO - Started process (PID=30848) to work on /opt/airflow/dags/dubai_weather_pipeline/dubai_weather_etl.py
+[2025-02-23T17:28:03.057+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dubai_weather_pipeline/dubai_weather_etl.py for tasks to queue
+[2025-02-23T17:28:03.058+0000] {logging_mixin.py:190} INFO - [2025-02-23T17:28:03.058+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dubai_weather_pipeline/dubai_weather_etl.py
+[2025-02-23T17:28:03.072+0000] {processor.py:925} INFO - DAG(s) 'dubai_weather_pipeline' retrieved from /opt/airflow/dags/dubai_weather_pipeline/dubai_weather_etl.py
+[2025-02-23T17:28:03.104+0000] {logging_mixin.py:190} INFO - [2025-02-23T17:28:03.104+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-23T17:28:03.136+0000] {logging_mixin.py:190} INFO - [2025-02-23T17:28:03.136+0000] {dag.py:4180} INFO - Setting next_dagrun for dubai_weather_pipeline to 2025-02-23 17:00:00+00:00, run_after=2025-02-23 18:00:00+00:00
+[2025-02-23T17:28:03.288+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dubai_weather_pipeline/dubai_weather_etl.py took 0.241 seconds
+[2025-02-23T17:28:34.055+0000] {processor.py:186} INFO - Started process (PID=30859) to work on /opt/airflow/dags/dubai_weather_pipeline/dubai_weather_etl.py
+[2025-02-23T17:28:34.068+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dubai_weather_pipeline/dubai_weather_etl.py for tasks to queue
+[2025-02-23T17:28:34.070+0000] {logging_mixin.py:190} INFO - [2025-02-23T17:28:34.070+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dubai_weather_pipeline/dubai_weather_etl.py
+[2025-02-23T17:28:34.085+0000] {processor.py:925} INFO - DAG(s) 'dubai_weather_pipeline' retrieved from /opt/airflow/dags/dubai_weather_pipeline/dubai_weather_etl.py
+[2025-02-23T17:28:34.124+0000] {logging_mixin.py:190} INFO - [2025-02-23T17:28:34.123+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-23T17:28:34.288+0000] {logging_mixin.py:190} INFO - [2025-02-23T17:28:34.288+0000] {dag.py:4180} INFO - Setting next_dagrun for dubai_weather_pipeline to 2025-02-23 17:00:00+00:00, run_after=2025-02-23 18:00:00+00:00
+[2025-02-23T17:28:34.309+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dubai_weather_pipeline/dubai_weather_etl.py took 0.263 seconds
+[2025-02-23T17:29:04.543+0000] {processor.py:186} INFO - Started process (PID=30870) to work on /opt/airflow/dags/dubai_weather_pipeline/dubai_weather_etl.py
+[2025-02-23T17:29:04.544+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dubai_weather_pipeline/dubai_weather_etl.py for tasks to queue
+[2025-02-23T17:29:04.546+0000] {logging_mixin.py:190} INFO - [2025-02-23T17:29:04.545+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dubai_weather_pipeline/dubai_weather_etl.py
+[2025-02-23T17:29:04.560+0000] {processor.py:925} INFO - DAG(s) 'dubai_weather_pipeline' retrieved from /opt/airflow/dags/dubai_weather_pipeline/dubai_weather_etl.py
+[2025-02-23T17:29:04.595+0000] {logging_mixin.py:190} INFO - [2025-02-23T17:29:04.595+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-23T17:29:04.630+0000] {logging_mixin.py:190} INFO - [2025-02-23T17:29:04.629+0000] {dag.py:4180} INFO - Setting next_dagrun for dubai_weather_pipeline to 2025-02-23 17:00:00+00:00, run_after=2025-02-23 18:00:00+00:00
+[2025-02-23T17:29:04.653+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dubai_weather_pipeline/dubai_weather_etl.py took 0.118 seconds
+[2025-02-23T17:29:35.143+0000] {processor.py:186} INFO - Started process (PID=30881) to work on /opt/airflow/dags/dubai_weather_pipeline/dubai_weather_etl.py
+[2025-02-23T17:29:35.144+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dubai_weather_pipeline/dubai_weather_etl.py for tasks to queue
+[2025-02-23T17:29:35.145+0000] {logging_mixin.py:190} INFO - [2025-02-23T17:29:35.145+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dubai_weather_pipeline/dubai_weather_etl.py
+[2025-02-23T17:29:35.160+0000] {processor.py:925} INFO - DAG(s) 'dubai_weather_pipeline' retrieved from /opt/airflow/dags/dubai_weather_pipeline/dubai_weather_etl.py
+[2025-02-23T17:29:35.191+0000] {logging_mixin.py:190} INFO - [2025-02-23T17:29:35.190+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-23T17:29:35.223+0000] {logging_mixin.py:190} INFO - [2025-02-23T17:29:35.223+0000] {dag.py:4180} INFO - Setting next_dagrun for dubai_weather_pipeline to 2025-02-23 17:00:00+00:00, run_after=2025-02-23 18:00:00+00:00
+[2025-02-23T17:29:35.243+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dubai_weather_pipeline/dubai_weather_etl.py took 0.109 seconds
+[2025-02-23T17:30:05.646+0000] {processor.py:186} INFO - Started process (PID=30892) to work on /opt/airflow/dags/dubai_weather_pipeline/dubai_weather_etl.py
+[2025-02-23T17:30:05.646+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dubai_weather_pipeline/dubai_weather_etl.py for tasks to queue
+[2025-02-23T17:30:05.647+0000] {logging_mixin.py:190} INFO - [2025-02-23T17:30:05.647+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dubai_weather_pipeline/dubai_weather_etl.py
+[2025-02-23T17:30:05.659+0000] {processor.py:925} INFO - DAG(s) 'dubai_weather_pipeline' retrieved from /opt/airflow/dags/dubai_weather_pipeline/dubai_weather_etl.py
+[2025-02-23T17:30:05.690+0000] {logging_mixin.py:190} INFO - [2025-02-23T17:30:05.690+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-23T17:30:05.723+0000] {logging_mixin.py:190} INFO - [2025-02-23T17:30:05.723+0000] {dag.py:4180} INFO - Setting next_dagrun for dubai_weather_pipeline to 2025-02-23 17:00:00+00:00, run_after=2025-02-23 18:00:00+00:00
+[2025-02-23T17:30:05.744+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dubai_weather_pipeline/dubai_weather_etl.py took 0.106 seconds
+[2025-02-23T17:30:36.473+0000] {processor.py:186} INFO - Started process (PID=30903) to work on /opt/airflow/dags/dubai_weather_pipeline/dubai_weather_etl.py
+[2025-02-23T17:30:36.474+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dubai_weather_pipeline/dubai_weather_etl.py for tasks to queue
+[2025-02-23T17:30:36.476+0000] {logging_mixin.py:190} INFO - [2025-02-23T17:30:36.475+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dubai_weather_pipeline/dubai_weather_etl.py
+[2025-02-23T17:30:36.492+0000] {processor.py:925} INFO - DAG(s) 'dubai_weather_pipeline' retrieved from /opt/airflow/dags/dubai_weather_pipeline/dubai_weather_etl.py
+[2025-02-23T17:30:36.525+0000] {logging_mixin.py:190} INFO - [2025-02-23T17:30:36.524+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-23T17:30:36.683+0000] {logging_mixin.py:190} INFO - [2025-02-23T17:30:36.683+0000] {dag.py:4180} INFO - Setting next_dagrun for dubai_weather_pipeline to 2025-02-23 17:00:00+00:00, run_after=2025-02-23 18:00:00+00:00
+[2025-02-23T17:30:36.705+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dubai_weather_pipeline/dubai_weather_etl.py took 0.241 seconds
+[2025-02-23T17:31:07.215+0000] {processor.py:186} INFO - Started process (PID=30914) to work on /opt/airflow/dags/dubai_weather_pipeline/dubai_weather_etl.py
+[2025-02-23T17:31:07.217+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dubai_weather_pipeline/dubai_weather_etl.py for tasks to queue
+[2025-02-23T17:31:07.218+0000] {logging_mixin.py:190} INFO - [2025-02-23T17:31:07.218+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dubai_weather_pipeline/dubai_weather_etl.py
+[2025-02-23T17:31:07.233+0000] {processor.py:925} INFO - DAG(s) 'dubai_weather_pipeline' retrieved from /opt/airflow/dags/dubai_weather_pipeline/dubai_weather_etl.py
+[2025-02-23T17:31:07.400+0000] {logging_mixin.py:190} INFO - [2025-02-23T17:31:07.400+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-23T17:31:07.430+0000] {logging_mixin.py:190} INFO - [2025-02-23T17:31:07.429+0000] {dag.py:4180} INFO - Setting next_dagrun for dubai_weather_pipeline to 2025-02-23 17:00:00+00:00, run_after=2025-02-23 18:00:00+00:00
+[2025-02-23T17:31:07.452+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dubai_weather_pipeline/dubai_weather_etl.py took 0.245 seconds
+[2025-02-23T17:31:37.892+0000] {processor.py:186} INFO - Started process (PID=30925) to work on /opt/airflow/dags/dubai_weather_pipeline/dubai_weather_etl.py
+[2025-02-23T17:31:37.893+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dubai_weather_pipeline/dubai_weather_etl.py for tasks to queue
+[2025-02-23T17:31:37.894+0000] {logging_mixin.py:190} INFO - [2025-02-23T17:31:37.894+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dubai_weather_pipeline/dubai_weather_etl.py
+[2025-02-23T17:31:37.908+0000] {processor.py:925} INFO - DAG(s) 'dubai_weather_pipeline' retrieved from /opt/airflow/dags/dubai_weather_pipeline/dubai_weather_etl.py
+[2025-02-23T17:31:37.942+0000] {logging_mixin.py:190} INFO - [2025-02-23T17:31:37.942+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-23T17:31:37.975+0000] {logging_mixin.py:190} INFO - [2025-02-23T17:31:37.975+0000] {dag.py:4180} INFO - Setting next_dagrun for dubai_weather_pipeline to 2025-02-23 17:00:00+00:00, run_after=2025-02-23 18:00:00+00:00
+[2025-02-23T17:31:38.000+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dubai_weather_pipeline/dubai_weather_etl.py took 0.117 seconds
