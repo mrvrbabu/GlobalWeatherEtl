@@ -14390,3 +14390,59 @@
 [2025-02-23T17:19:49.164+0000] {logging_mixin.py:190} INFO - [2025-02-23T17:19:49.164+0000] {dag.py:3239} INFO - Sync 1 DAGs
 [2025-02-23T17:19:49.198+0000] {logging_mixin.py:190} INFO - [2025-02-23T17:19:49.197+0000] {dag.py:4180} INFO - Setting next_dagrun for london_weather_pipeline to 2025-02-23 17:00:00+00:00, run_after=2025-02-23 18:00:00+00:00
 [2025-02-23T17:19:49.220+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/london_weather_pipeline/london_weather_etl.py took 0.108 seconds
+[2025-02-23T17:20:19.733+0000] {processor.py:186} INFO - Started process (PID=30681) to work on /opt/airflow/dags/london_weather_pipeline/london_weather_etl.py
+[2025-02-23T17:20:19.734+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/london_weather_pipeline/london_weather_etl.py for tasks to queue
+[2025-02-23T17:20:19.736+0000] {logging_mixin.py:190} INFO - [2025-02-23T17:20:19.735+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/london_weather_pipeline/london_weather_etl.py
+[2025-02-23T17:20:19.752+0000] {processor.py:925} INFO - DAG(s) 'london_weather_pipeline' retrieved from /opt/airflow/dags/london_weather_pipeline/london_weather_etl.py
+[2025-02-23T17:20:19.786+0000] {logging_mixin.py:190} INFO - [2025-02-23T17:20:19.786+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-23T17:20:19.818+0000] {logging_mixin.py:190} INFO - [2025-02-23T17:20:19.818+0000] {dag.py:4180} INFO - Setting next_dagrun for london_weather_pipeline to 2025-02-23 17:00:00+00:00, run_after=2025-02-23 18:00:00+00:00
+[2025-02-23T17:20:19.840+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/london_weather_pipeline/london_weather_etl.py took 0.116 seconds
+[2025-02-23T17:20:50.244+0000] {processor.py:186} INFO - Started process (PID=30692) to work on /opt/airflow/dags/london_weather_pipeline/london_weather_etl.py
+[2025-02-23T17:20:50.246+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/london_weather_pipeline/london_weather_etl.py for tasks to queue
+[2025-02-23T17:20:50.247+0000] {logging_mixin.py:190} INFO - [2025-02-23T17:20:50.247+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/london_weather_pipeline/london_weather_etl.py
+[2025-02-23T17:20:50.261+0000] {processor.py:925} INFO - DAG(s) 'london_weather_pipeline' retrieved from /opt/airflow/dags/london_weather_pipeline/london_weather_etl.py
+[2025-02-23T17:20:50.300+0000] {logging_mixin.py:190} INFO - [2025-02-23T17:20:50.300+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-23T17:20:50.333+0000] {logging_mixin.py:190} INFO - [2025-02-23T17:20:50.333+0000] {dag.py:4180} INFO - Setting next_dagrun for london_weather_pipeline to 2025-02-23 17:00:00+00:00, run_after=2025-02-23 18:00:00+00:00
+[2025-02-23T17:20:50.353+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/london_weather_pipeline/london_weather_etl.py took 0.117 seconds
+[2025-02-23T17:21:20.815+0000] {processor.py:186} INFO - Started process (PID=30703) to work on /opt/airflow/dags/london_weather_pipeline/london_weather_etl.py
+[2025-02-23T17:21:20.816+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/london_weather_pipeline/london_weather_etl.py for tasks to queue
+[2025-02-23T17:21:20.818+0000] {logging_mixin.py:190} INFO - [2025-02-23T17:21:20.817+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/london_weather_pipeline/london_weather_etl.py
+[2025-02-23T17:21:20.831+0000] {processor.py:925} INFO - DAG(s) 'london_weather_pipeline' retrieved from /opt/airflow/dags/london_weather_pipeline/london_weather_etl.py
+[2025-02-23T17:21:20.864+0000] {logging_mixin.py:190} INFO - [2025-02-23T17:21:20.864+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-23T17:21:20.904+0000] {logging_mixin.py:190} INFO - [2025-02-23T17:21:20.904+0000] {dag.py:4180} INFO - Setting next_dagrun for london_weather_pipeline to 2025-02-23 17:00:00+00:00, run_after=2025-02-23 18:00:00+00:00
+[2025-02-23T17:21:20.931+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/london_weather_pipeline/london_weather_etl.py took 0.124 seconds
+[2025-02-23T17:21:51.436+0000] {processor.py:186} INFO - Started process (PID=30714) to work on /opt/airflow/dags/london_weather_pipeline/london_weather_etl.py
+[2025-02-23T17:21:51.438+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/london_weather_pipeline/london_weather_etl.py for tasks to queue
+[2025-02-23T17:21:51.439+0000] {logging_mixin.py:190} INFO - [2025-02-23T17:21:51.439+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/london_weather_pipeline/london_weather_etl.py
+[2025-02-23T17:21:51.454+0000] {processor.py:925} INFO - DAG(s) 'london_weather_pipeline' retrieved from /opt/airflow/dags/london_weather_pipeline/london_weather_etl.py
+[2025-02-23T17:21:51.490+0000] {logging_mixin.py:190} INFO - [2025-02-23T17:21:51.490+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-23T17:21:51.654+0000] {logging_mixin.py:190} INFO - [2025-02-23T17:21:51.654+0000] {dag.py:4180} INFO - Setting next_dagrun for london_weather_pipeline to 2025-02-23 17:00:00+00:00, run_after=2025-02-23 18:00:00+00:00
+[2025-02-23T17:21:51.674+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/london_weather_pipeline/london_weather_etl.py took 0.247 seconds
+[2025-02-23T17:22:22.152+0000] {processor.py:186} INFO - Started process (PID=30725) to work on /opt/airflow/dags/london_weather_pipeline/london_weather_etl.py
+[2025-02-23T17:22:22.153+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/london_weather_pipeline/london_weather_etl.py for tasks to queue
+[2025-02-23T17:22:22.154+0000] {logging_mixin.py:190} INFO - [2025-02-23T17:22:22.154+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/london_weather_pipeline/london_weather_etl.py
+[2025-02-23T17:22:22.167+0000] {processor.py:925} INFO - DAG(s) 'london_weather_pipeline' retrieved from /opt/airflow/dags/london_weather_pipeline/london_weather_etl.py
+[2025-02-23T17:22:22.197+0000] {logging_mixin.py:190} INFO - [2025-02-23T17:22:22.197+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-23T17:22:22.229+0000] {logging_mixin.py:190} INFO - [2025-02-23T17:22:22.229+0000] {dag.py:4180} INFO - Setting next_dagrun for london_weather_pipeline to 2025-02-23 17:00:00+00:00, run_after=2025-02-23 18:00:00+00:00
+[2025-02-23T17:22:22.254+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/london_weather_pipeline/london_weather_etl.py took 0.109 seconds
+[2025-02-23T17:22:52.654+0000] {processor.py:186} INFO - Started process (PID=30736) to work on /opt/airflow/dags/london_weather_pipeline/london_weather_etl.py
+[2025-02-23T17:22:52.655+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/london_weather_pipeline/london_weather_etl.py for tasks to queue
+[2025-02-23T17:22:52.657+0000] {logging_mixin.py:190} INFO - [2025-02-23T17:22:52.656+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/london_weather_pipeline/london_weather_etl.py
+[2025-02-23T17:22:52.669+0000] {processor.py:925} INFO - DAG(s) 'london_weather_pipeline' retrieved from /opt/airflow/dags/london_weather_pipeline/london_weather_etl.py
+[2025-02-23T17:22:52.701+0000] {logging_mixin.py:190} INFO - [2025-02-23T17:22:52.701+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-23T17:22:52.732+0000] {logging_mixin.py:190} INFO - [2025-02-23T17:22:52.732+0000] {dag.py:4180} INFO - Setting next_dagrun for london_weather_pipeline to 2025-02-23 17:00:00+00:00, run_after=2025-02-23 18:00:00+00:00
+[2025-02-23T17:22:52.752+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/london_weather_pipeline/london_weather_etl.py took 0.105 seconds
+[2025-02-23T17:23:23.202+0000] {processor.py:186} INFO - Started process (PID=30747) to work on /opt/airflow/dags/london_weather_pipeline/london_weather_etl.py
+[2025-02-23T17:23:23.203+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/london_weather_pipeline/london_weather_etl.py for tasks to queue
+[2025-02-23T17:23:23.204+0000] {logging_mixin.py:190} INFO - [2025-02-23T17:23:23.204+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/london_weather_pipeline/london_weather_etl.py
+[2025-02-23T17:23:23.218+0000] {processor.py:925} INFO - DAG(s) 'london_weather_pipeline' retrieved from /opt/airflow/dags/london_weather_pipeline/london_weather_etl.py
+[2025-02-23T17:23:23.252+0000] {logging_mixin.py:190} INFO - [2025-02-23T17:23:23.252+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-23T17:23:23.285+0000] {logging_mixin.py:190} INFO - [2025-02-23T17:23:23.285+0000] {dag.py:4180} INFO - Setting next_dagrun for london_weather_pipeline to 2025-02-23 17:00:00+00:00, run_after=2025-02-23 18:00:00+00:00
+[2025-02-23T17:23:23.306+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/london_weather_pipeline/london_weather_etl.py took 0.115 seconds
+[2025-02-23T17:23:53.836+0000] {processor.py:186} INFO - Started process (PID=30758) to work on /opt/airflow/dags/london_weather_pipeline/london_weather_etl.py
+[2025-02-23T17:23:53.837+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/london_weather_pipeline/london_weather_etl.py for tasks to queue
+[2025-02-23T17:23:53.839+0000] {logging_mixin.py:190} INFO - [2025-02-23T17:23:53.838+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/london_weather_pipeline/london_weather_etl.py
+[2025-02-23T17:23:53.853+0000] {processor.py:925} INFO - DAG(s) 'london_weather_pipeline' retrieved from /opt/airflow/dags/london_weather_pipeline/london_weather_etl.py
+[2025-02-23T17:23:53.890+0000] {logging_mixin.py:190} INFO - [2025-02-23T17:23:53.890+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-23T17:23:54.051+0000] {logging_mixin.py:190} INFO - [2025-02-23T17:23:54.051+0000] {dag.py:4180} INFO - Setting next_dagrun for london_weather_pipeline to 2025-02-23 17:00:00+00:00, run_after=2025-02-23 18:00:00+00:00
+[2025-02-23T17:23:54.073+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/london_weather_pipeline/london_weather_etl.py took 0.246 seconds
