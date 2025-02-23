@@ -2,7 +2,7 @@
 
 # https://www.youtube.com/watch?v=Y_vQyMljDsE&ab_channel=KrishNaik
 
-<!-- How to run 
+# How to run 
 
 rbabu@k8s-master:~/GlobalWeatherEtl/airflow$ docker-compose up -d 
 airflow_redis_1 is up-to-date
@@ -23,4 +23,4 @@ d7ad1d412cc1   postgres:15.1           "docker-entrypoint.s…"   29 hours ago  
 faba4dcb31fd   redis:7.2-bookworm      "docker-entrypoint.s…"   29 hours ago   Up 29 hours (healthy)   6379/tcp                                              airflow_redis_1
 rbabu@k8s-master:~/GlobalWeatherEtl/airflow$ date
 Sun Feb 23 05:31:16 PM UTC 2025
-rbabu@k8s-master:~/GlobalWeatherEtl/airflow$  -->
+rbabu@k8s-master:~/GlobalWeatherEtl/airflow$ 

@@ -30493,3 +30493,24 @@ airflow.exceptions.AirflowException: Tried to create relationships between tasks
 [2025-02-23T17:33:04.676+0000] {logging_mixin.py:190} INFO - [2025-02-23T17:33:04.675+0000] {dag.py:3239} INFO - Sync 1 DAGs
 [2025-02-23T17:33:04.833+0000] {logging_mixin.py:190} INFO - [2025-02-23T17:33:04.833+0000] {dag.py:4180} INFO - Setting next_dagrun for newyork_weather_pipeline to 2025-02-23 17:00:00+00:00, run_after=2025-02-23 18:00:00+00:00
 [2025-02-23T17:33:04.853+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/newyork_weather_pipeline/newyork_weather_etl.py took 0.238 seconds
+[2025-02-23T17:33:35.468+0000] {processor.py:186} INFO - Started process (PID=30966) to work on /opt/airflow/dags/newyork_weather_pipeline/newyork_weather_etl.py
+[2025-02-23T17:33:35.469+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/newyork_weather_pipeline/newyork_weather_etl.py for tasks to queue
+[2025-02-23T17:33:35.470+0000] {logging_mixin.py:190} INFO - [2025-02-23T17:33:35.470+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/newyork_weather_pipeline/newyork_weather_etl.py
+[2025-02-23T17:33:35.485+0000] {processor.py:925} INFO - DAG(s) 'newyork_weather_pipeline' retrieved from /opt/airflow/dags/newyork_weather_pipeline/newyork_weather_etl.py
+[2025-02-23T17:33:35.519+0000] {logging_mixin.py:190} INFO - [2025-02-23T17:33:35.518+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-23T17:33:35.551+0000] {logging_mixin.py:190} INFO - [2025-02-23T17:33:35.551+0000] {dag.py:4180} INFO - Setting next_dagrun for newyork_weather_pipeline to 2025-02-23 17:00:00+00:00, run_after=2025-02-23 18:00:00+00:00
+[2025-02-23T17:33:35.587+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/newyork_weather_pipeline/newyork_weather_etl.py took 0.128 seconds
+[2025-02-23T17:34:05.952+0000] {processor.py:186} INFO - Started process (PID=30977) to work on /opt/airflow/dags/newyork_weather_pipeline/newyork_weather_etl.py
+[2025-02-23T17:34:05.953+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/newyork_weather_pipeline/newyork_weather_etl.py for tasks to queue
+[2025-02-23T17:34:05.955+0000] {logging_mixin.py:190} INFO - [2025-02-23T17:34:05.955+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/newyork_weather_pipeline/newyork_weather_etl.py
+[2025-02-23T17:34:05.970+0000] {processor.py:925} INFO - DAG(s) 'newyork_weather_pipeline' retrieved from /opt/airflow/dags/newyork_weather_pipeline/newyork_weather_etl.py
+[2025-02-23T17:34:06.004+0000] {logging_mixin.py:190} INFO - [2025-02-23T17:34:06.004+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-23T17:34:06.038+0000] {logging_mixin.py:190} INFO - [2025-02-23T17:34:06.037+0000] {dag.py:4180} INFO - Setting next_dagrun for newyork_weather_pipeline to 2025-02-23 17:00:00+00:00, run_after=2025-02-23 18:00:00+00:00
+[2025-02-23T17:34:06.060+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/newyork_weather_pipeline/newyork_weather_etl.py took 0.117 seconds
+[2025-02-23T17:34:36.444+0000] {processor.py:186} INFO - Started process (PID=30988) to work on /opt/airflow/dags/newyork_weather_pipeline/newyork_weather_etl.py
+[2025-02-23T17:34:36.445+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/newyork_weather_pipeline/newyork_weather_etl.py for tasks to queue
+[2025-02-23T17:34:36.446+0000] {logging_mixin.py:190} INFO - [2025-02-23T17:34:36.446+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/newyork_weather_pipeline/newyork_weather_etl.py
+[2025-02-23T17:34:36.460+0000] {processor.py:925} INFO - DAG(s) 'newyork_weather_pipeline' retrieved from /opt/airflow/dags/newyork_weather_pipeline/newyork_weather_etl.py
+[2025-02-23T17:34:36.494+0000] {logging_mixin.py:190} INFO - [2025-02-23T17:34:36.493+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-23T17:34:36.654+0000] {logging_mixin.py:190} INFO - [2025-02-23T17:34:36.654+0000] {dag.py:4180} INFO - Setting next_dagrun for newyork_weather_pipeline to 2025-02-23 17:00:00+00:00, run_after=2025-02-23 18:00:00+00:00
+[2025-02-23T17:34:36.674+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/newyork_weather_pipeline/newyork_weather_etl.py took 0.240 seconds
