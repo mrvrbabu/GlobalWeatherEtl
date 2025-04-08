@@ -24,3 +24,24 @@ faba4dcb31fd   redis:7.2-bookworm      "docker-entrypoint.s…"   29 hours ago  
 rbabu@k8s-master:~/GlobalWeatherEtl/airflow$ date
 Sun Feb 23 05:31:16 PM UTC 2025
 rbabu@k8s-master:~/GlobalWeatherEtl/airflow$
+
+
+rbabu@k8s-master:~/GlobalWeatherEtl/airflow$ docker exec -it airflow_postgres_1 /bin/bash
+root@d7ad1d412cc1:/# su - postgres
+postgres@d7ad1d412cc1:~$ psql -h localhost -U airflow
+psql (15.1 (Debian 15.1-1.pgdg110+1))
+Type "help" for help.
+
+airflow=# \l
+                                               List of databases
+   Name    |  Owner  | Encoding |  Collate   |   Ctype    | ICU Locale | Locale Provider |  Access privileges  
+-----------+---------+----------+------------+------------+------------+-----------------+---------------------
+ airflow   | airflow | UTF8     | en_US.utf8 | en_US.utf8 |            | libc            | 
+ postgres  | airflow | UTF8     | en_US.utf8 | en_US.utf8 |            | libc            | 
+ template0 | airflow | UTF8     | en_US.utf8 | en_US.utf8 |            | libc            | =c/airflow         +
+           |         |          |            |            |            |                 | airflow=CTc/airflow
+ template1 | airflow | UTF8     | en_US.utf8 | en_US.utf8 |            | libc            | =c/airflow         +
+           |         |          |            |            |            |                 | airflow=CTc/airflow
+(4 rows)
+
+airflow=# 
